@@ -54,9 +54,6 @@
   padding: 0;
 }
 
-.indicators li {
-margin-right: 0;
-}
 
 .indicators .active {
   background-color: blue;
