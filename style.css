@@ -29,24 +29,24 @@ body{
 }
 
  .slide:nth-of-type(1) {
-  background-image: url('/img/img-iphone.jpg');
+  background-image: url('img/img-iphone.jpg');
 
 } 
 
 .slide:nth-of-type(2) {
-  background-image: url('/img/img-mac.jpg');
+  background-image: url('img/img-mac.jpg');
 }
 
 .slide:nth-of-type(3) {
-  background-image: url('/img/img-macbook.jpg');
+  background-image: url('img/img-macbook.jpg');
 }
 
 .slide:nth-of-type(4) {
-  background-image: url('/img/img-ipad.jpg');
+  background-image: url('img/img-ipad.jpg');
 }
 
 .slide:nth-of-type(5) {
-  background-image: url('/img/img-watch.jpg');
+  background-image: url('img/img-watch.jpg');
 } 
 
 .indicators {
