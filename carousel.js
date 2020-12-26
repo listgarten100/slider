@@ -39,6 +39,7 @@ _initProps() {
       for (let i = 0; i < this.slidesCount; i++) {
         const indicator = document.createElement('li');
         indicator.setAttribute('class', 'indicator');
+        indicator.innerHTML = `Step ${i + 1}`;
         if (i === 0) indicator.classList.add('active');
         indicator.dataset.slideTo = `${i}`;
         indicators.appendChild(indicator);

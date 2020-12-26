@@ -1,7 +1,7 @@
 let carousel = new SwipeCarousel({
   containerID: '#carousel', 
   slideID: '.item', 
-  interval: 2000
+  interval: 3000
 });
 
 carousel.init();

@@ -130,5 +130,5 @@ document.addEventListener('keydown', pressKey);
 
 slideInterval = setInterval(goToNextSlide, interval);
 
-})
+});
 
