@@ -7,12 +7,12 @@ constructor(sett) {
 }
 
 _initConfig(obj) {
-let settings = {
-  containerID: '#carousel',
-  slideID: '.slide',
-  interval: 2000
-};
-return {...settings, ...obj};
+    let settings = {
+        containerID: '#carousel',
+        slideID: '.slide',
+        interval: 2000
+    };
+    return {...settings, ...obj};
 }
 
 _initProps() {

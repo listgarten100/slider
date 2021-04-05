@@ -18,8 +18,8 @@ body{
   opacity: 0;
   z-index: 1;
   transition: opacity 0.5s;
-  background-size: 100% 100%;
-  /* background-position: 100% 100%; */
+  background-size: contain;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
@@ -105,12 +105,12 @@ body{
   cursor: pointer;
 }
 
-.controls-next:hover, .controls-next:focus {
+.controls-next {
   background-color:  #8C9293;
   background: linear-gradient(to left, rgba(140, 146, 147, 1), rgba(0, 0, 0, 0));
 }
 
-.controls-previous:hover, .controls-previous:focus {
+.controls-previous {
   background-color:  #8C9293;
   background: linear-gradient(to right, rgba(140, 146, 147, 1), rgba(0, 0, 0, 0));
 }
